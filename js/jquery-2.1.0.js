@@ -478,7 +478,7 @@
                 while (b = a[d++]) c += e(b);
             return c
         }, d = db.selectors = {
-            cacheLength: 50,
+            cacheLength: 50000,
             createPseudo: fb,
             match: V,
             attrHandle: {},
