@@ -776,7 +776,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: black;
 }
 
 .btn-atomic-tangerine {
@@ -1048,4 +1048,11 @@ h4 {
 .col-xs-12 h2
 {
     font-style: italic;
+}
+.col-sm-6 p{
+    margin-left: 10px;
+    font-size: 18px;
+}
+label{
+    margin-left: 15px;
 }
