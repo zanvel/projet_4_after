@@ -305,6 +305,7 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    height: 40px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -1039,4 +1040,12 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+/*Lignes rajoutées*/
+.image-resize-mode{
+    width: 100px;
+}
+.col-xs-12 h2
+{
+    font-style: italic;
 }
