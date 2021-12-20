@@ -131,9 +131,8 @@ a:hover {
 .d-bloc h3 a,
 .d-bloc h4 a,
 .d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+.d-bloc h6 a{
+    color: whitesmoke;
 }
 
 .d-bloc .a-btn:hover,
@@ -148,9 +147,8 @@ a:hover {
 .d-bloc h3 a:hover,
 .d-bloc h4 a:hover,
 .d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
-.d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+.d-bloc h6 a:hover{
+    color: whitesmoke;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -229,9 +227,8 @@ a:hover {
 .l-bloc h3 a,
 .l-bloc h4 a,
 .l-bloc h5 a,
-.l-bloc h6 a,
-.l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+.l-bloc h6 a{
+    color: whitesmoke;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -247,9 +244,8 @@ a:hover {
 .l-bloc h3 a:hover,
 .l-bloc h4 a:hover,
 .l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
-.l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
+.l-bloc h6 a:hover{
+    color: whitesmoke;
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -646,13 +642,12 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: white;
 }
 
 .container {
@@ -708,6 +703,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    color: black;
 }
 
 h3 {
@@ -724,7 +720,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: white!important;
 }
 
 h4 {
@@ -776,7 +772,7 @@ h4 {
 }
 
 .tc-white {
-    color: black;
+    color: whitesmoke;
 }
 
 .btn-atomic-tangerine {
@@ -947,7 +943,7 @@ h4 {
         background: rgba(0, 0, 0, .8);
     }
     #hero-bloc .navbar .nav a {
-        color: rgba(255, 255, 255, .6);
+        color: black;
     }
     .hero {
         padding: 50px 0;
@@ -1051,8 +1047,15 @@ h4 {
 }
 .col-sm-6 p{
     margin-left: 10px;
-    font-size: 18px;
+    font-size: 14px;
 }
 label{
+    color: black;
     margin-left: 15px;
+}
+.d-bloc p a, 
+.d-bloc p a:hover,
+.l-bloc p a,
+.l-bloc p a:hover{
+    color: black;
 }
