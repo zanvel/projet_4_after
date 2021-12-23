@@ -775,7 +775,7 @@ h4 {
 }
 
 .tc-white {
-    color: whitesmoke;
+    color: white;
 }
 
 .btn-atomic-tangerine {
@@ -1066,3 +1066,7 @@ label{
 .col-sm-4 li{
     margin-bottom: 10px;
     }
+.col-sm-4 a,a:hover, a:active{
+    text-decoration: none;
+    color: inherit;
+}
