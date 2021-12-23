@@ -1069,3 +1069,7 @@ label{
 .col-sm-4 a,a:hover, a:active{
     text-decoration: none;
 }
+img{
+    width: auto;
+    height: auto;
+}
